@@ -1,0 +1,704 @@
+@font-face{
+    font-family: avenirlight;
+    src : url('../font/avenirltstd-light.otf')
+}
+@font-face{
+    font-family: avenirHeavy;
+    src : url('../font/Avenir Heavy.ttf')
+}
+@font-face{
+    font-family: avenirBook;
+    src : url('../font/Avenir Book.ttf')
+}
+@font-face{
+    font-family: avenirBlack;
+    src : url('../font/Avenir-Black.otf')
+}
+@font-face{
+    font-family: moserratSemibold;
+    src : url('../font/Montserrat-SemiBold.ttf')
+}
+/*focus*/
+button:focus,input:focus,textarea:focus,.btn:focus
+{
+  box-shadow: none;
+  outline:none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+.logo_babicar
+{
+	width: 100px;
+	height: 150px;
+}
+.div_fondo
+{
+    background-image: url('../img/Grupo2024.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.div_caudrado_blanco
+{
+    border: 1px solid #E3E3E3;
+    background-color: #ffffff4d;
+}
+.h1_home
+{
+    color: #FFFFFF;
+    font-family: avenirlight;
+    font-size: 20px;
+}
+.p_subtitulo_home
+{
+    color: #FFFFFF;
+    font-family: avenirHeavy;
+}
+.img_logos_blanocs
+{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+}
+.a_link_visita
+{
+    color: #FFFFFF;
+    font-family: avenirlight;
+}
+.a_link_visita:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.link_cuadrado:hover
+{
+    text-decoration: none;
+}
+.p_footer
+{
+    color: #727272;
+    font-family: avenirBook;
+}
+.link_pro
+{
+    font-family: avenirBlack;
+    color: #727272;
+}
+.link_pro:hover
+{
+    color: #727272;
+    text-decoration: none;
+}
+.secc_termino
+{
+    background-image: url('../img/Grupo2032.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 163px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.h1_termino
+{
+    color: #FFFFFF;
+    font-family: avenirBlack;
+    width: 100%;
+    font-size: 20px;
+}
+.h2_termino
+{
+    color: #8D8D8D;
+    font-family: avenirBlack;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.div_formulario_termino
+{
+    position: absolute;
+    right: 12px;
+    top: 230px;
+    width: 330px;
+    height: auto;
+    z-index: 9999999;
+    border-radius: 11px;
+    box-shadow: 0px 14px 26px #00000029;
+}
+.div_formulario1
+{
+    background-color: #F7F7F4;
+    width: 100%;
+    border-radius: 11px 11px 0px 0px;
+}
+.img_logo_circulo_termino
+{
+    width: 160px;
+    height: 160px;
+    margin-top: -26px;
+}
+.div_radio
+{
+    margin-top: 30px;
+}
+.border_right
+{
+    border-right: 1px solid #B2B2B2;
+}
+.icon_color_label
+{
+    color: #676767;
+}
+.input_termieno
+{
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid #B2B2B2;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #727272;
+    font-family: avenirBook;
+    font-size: 13px;
+}
+.div_formulario_btn
+{
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 11px 11px;
+}
+.btn_comprar_termino
+{
+    background-color: #045E2E;
+    border-radius: 38px;
+    width: 240px;
+    margin-top: 0px;
+    color: #FFFFFF;
+    font-family: avenirHeavy;
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: all .5s;
+    letter-spacing: 0.0625em;
+    padding: 8px 8px; 
+    line-height: 2;
+    cursor: pointer;  
+    position: relative;
+    transition: all .5s;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid #707070;
+}
+.btn_comprar_termino:after
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #ffffff61; /* onhover background color */
+  border-radius: 39px;
+  z-index: -1;
+  transform: translate3D(-100%,0,0); /* move elements above button so they don't appear initially */
+  transition: all .5s;
+}
+.btn_comprar_termino:hover
+{
+    color: #FFFFFF;
+}
+.btn_comprar_termino:hover:after
+{
+  transform: translate3D(0,0,0);
+  transition: all .5s;
+  z-index: 0;
+}
+.secc_bajar_termino
+{
+    margin-top: 700px;
+}
+.h5_termino
+{
+    color: #99985F;
+    font-family: avenirBlack;
+}
+.p_descrip_termino
+{
+    color: #727272;
+    font-family: avenirBook;
+}
+.btn_cotizar_termino
+{
+    background-color: #045E2E;
+    border-radius: 38px;
+    width: 240px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-family: avenirHeavy;
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: all .5s;
+    letter-spacing: 0.0625em;
+    padding: 8px 8px; 
+    line-height: 2;
+    cursor: pointer;  
+    position: relative;
+    transition: all .5s;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid #707070;
+}
+.btn_cotizar_termino:after
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #ffffff61; /* onhover background color */
+  border-radius: 39px;
+  z-index: -1;
+  transform: translate3D(-100%,0,0); /* move elements above button so they don't appear initially */
+  transition: all .5s;
+}
+.btn_cotizar_termino:hover
+{
+    color: #FFFFFF;
+}
+.btn_cotizar_termino:hover:after
+{
+  transform: translate3D(0,0,0);
+  transition: all .5s;
+  z-index: 0;
+}
+.div_linea_plomo
+{
+    height: 1px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #B2B2B2;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.img_circular_compa
+{
+    width: 150px;
+    height: 150px;
+}
+.link_regresar_compa
+{
+    color: #727272;
+    font-family: avenirBook;
+    width: 100%;
+}
+.link_regresar_compa:hover
+{
+    color: #727272;
+    text-decoration: none;
+}
+.p_monto
+{
+    color: #727272;
+    font-family: avenirHeavy;
+}
+.div_select
+{
+  width: 100%;
+  padding-right: 80px;
+}
+input[type=range] {
+  /*removes default webkit styles*/
+  -webkit-appearance: none;
+  /*fix for FF unable to apply focus style bug */
+  border-radius: 5px;
+  /*required for proper track sizing in FF*/
+  width: 100%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 7px;
+  background: #999863;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid #707070;
+  margin-top: -6px;
+  vertical-align: middle;
+}
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:hover {
+    cursor: pointer;
+}
+.span_check
+{
+    color: #727272;
+    font-family: avenirBook;
+}
+.link_calcular
+{
+    background-color: #999862;
+    border-radius: 38px;
+    width: 110px;
+    margin-top: 0px;
+    color: #FFFFFF;
+    font-family: avenirHeavy;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .5s;
+    letter-spacing: 0.0625em;
+    padding: 6px 8px; 
+    line-height: 2;
+    cursor: pointer;  
+    position: relative;
+    transition: all .5s;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+}
+.link_calcular:after
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #ffffff61; /* onhover background color */
+  border-radius: 39px;
+  z-index: -1;
+  transform: translate3D(-100%,0,0); /* move elements above button so they don't appear initially */
+  transition: all .5s;
+}
+.link_calcular:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.link_calcular:hover:after
+{
+  transform: translate3D(0,0,0);
+  transition: all .5s;
+  z-index: 0;
+}
+.h1_titulo_compar
+{
+    color: #727272;
+    font-family: avenirBook;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.p_book_compa
+{
+    color: #727272;
+    font-family: avenirBook;
+}
+.linea_plomo_compa
+{
+    background-color: #B2B2B2;
+    width: 100%;
+    height: 1px;
+}
+.p_number_form
+{
+    font-size: 14px;
+}
+.img_table
+{
+    width: 115px;
+    height: 70px;
+}
+.table-bordered td, .table-bordered th
+{
+    border: 3px solid #FFFFFF;
+    background-color: #F4F4F4;
+    border-radius: 9px;
+    width: 220px;
+}
+.p_aseguradora
+{
+    color: #343434;
+    font-family: avenirBlack;
+    font-size: 11px;
+}
+.datos_table
+{
+    color: #343434;
+    font-family: avenirBlack;
+    font-size: 10px;
+    background-color: #FFFFFF !important;
+}
+.font_table
+{
+    color: #727272;
+    font-family: avenirBook;
+}
+.link_pdf
+{
+    color: #727272;
+    font-family: avenirBook;
+}
+.p_prima_anual
+{
+    color: #727272;
+    font-family: avenirBook;
+}
+.p_enviar
+{
+    color: #727272;
+    font-family: avenirBook;
+    font-size: 25px;
+}
+.p_datos
+{
+    color: #727272;
+    font-family: avenirHeavy;
+    margin-bottom: 0px;
+}
+.input_contacto
+{
+    color: #727272;
+    font-family: avenirBook;
+    background-color: #FFFFFF;
+    border: 1px solid #B2B2B2;
+    border-radius: 11px;
+    width: 100%;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.div_form_input
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input_contacto1
+{
+    color: #727272;
+    font-family: avenirBook;
+    background-color: #FFFFFF;
+    border: 1px solid #B2B2B2;
+    border-radius: 11px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.input_left
+{
+    width: 49.5%;
+    margin-left: 0.5%;
+}
+.input_rigth
+{
+    width: 49.5%;
+    margin-right: 0.5%;
+}
+.link_envia_pdf
+{
+    width: 130px;
+    background-color: #999862;
+    color: #FFFFFF;
+    font-family: moserratSemibold;
+    border-radius: 38px;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #FFFFFF;
+}
+.link_envia_pdf:hover
+{
+    text-decoration: none;
+    color: #999862;
+    border: 1px solid #999862;
+    background-color: #FFFFFF;
+}
+.btn_circulo
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #999862;
+    color: #FFFFFF;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+
+}
+.btn_circulo:hover
+{
+    color: #999862;
+    border: 1px solid #999862;
+    background-color: #FFFFFF;
+}
+.idv_select
+{
+    display: flex;
+}
+.div_celect1
+{
+    width: 49.5%;
+    margin-right: 0.5%;
+}
+.div_celect2
+{
+    width: 49.5%;
+    margin-left: 0.5%;
+}
+@media (min-width: 640px)
+{
+    .h1_home
+    {
+        font-size: 20px;
+    }
+    .secc_bajar_termino
+    {
+        margin-top: 730px;
+    }
+    .secc_termino
+    {
+        height: 286px;
+        padding-left: 20px;
+    }
+    .h1_termino
+    {
+        font-size: 30px;
+    }
+    .h2_termino
+    {
+        margin-left: 20px;
+    }
+    .div_formulario_termino
+    {
+        right: 130px;
+        top: 380px;
+        width: 380px;
+    }
+}
+@media (min-width: 768px)
+{
+    .h1_home
+    {
+        font-size: 23px;
+    }
+    .secc_termino
+    {
+        height: 340px;
+    }
+    .div_formulario_termino
+    {
+        right: 190px;
+        top: 430px;
+        width: 370px;
+    }
+    .secc_bajar_termino
+    {
+        margin-top: 730px;
+    }
+    .h2_termino
+    {
+        margin-left: 20px;
+        font-size: 25px;
+    }
+}
+@media (min-width: 1024px)
+{
+    .h2_termino
+    {
+       font-size: 30px;
+       margin-left: 40px;
+    }
+    .h1_home
+    {
+        font-size: 27px;
+    }
+    .h1_termino
+    {
+        font-size: 30px;
+    }
+    .secc_termino
+    {
+        height: 450px;
+        padding-left: 40px;
+    }
+    .div_formulario_termino
+    {
+        right: 36px;
+        top: 35px;
+        width: 370px;
+    }
+    .secc_bajar_termino
+    {
+        margin-top: 260px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .h2_termino
+    {
+       font-size: 40px;
+       margin-left: 70px;
+    }
+    .div_formulario_termino
+    {
+        top: 40px;
+        right: 80px;
+        width: 420px;
+    }
+    .secc_termino
+    {
+        height: 560px;
+        padding-left: 70px;
+    }
+    .h1_termino
+    {
+        font-size: 40px;
+    }
+    .secc_bajar_termino
+    {
+        margin-top: 150px;
+    }
+}
+@media (min-width: 1300px)
+{
+    .div_formulario_termino
+    {
+        top: 77px;
+    }
+    .secc_termino
+    {
+        height: 600px;
+    }
+}
